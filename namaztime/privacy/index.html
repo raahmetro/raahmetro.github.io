@@ -61,7 +61,7 @@
 <main>
 
   <h1>Namaz Time &mdash; Privacy Policy</h1>
-  <p class="meta">Version 1.3 &middot; Last updated: 2026-06-15</p>
+  <p class="meta">Version 1.4 &middot; Last updated: 2026-06-15</p>
   <p class="meta">Applies to the <strong>Namaz Time</strong> Android app &middot; Package: <code>com.namaztime.app</code> &middot; Publisher: <strong>Microman Play</strong></p>
 
   <hr>
@@ -98,10 +98,10 @@
         <td>On-device only; cleared when you clear app data or uninstall</td>
       </tr>
       <tr>
-        <td><strong>Advertising ID (AAID) + IP address + coarse device info</strong></td>
-        <td><strong>Only in the free, ad-supported version.</strong> Google AdMob uses these to serve and measure <strong>non-personalised</strong> ads &mdash; a <strong>banner</strong>, an <strong>occasional full-screen (interstitial)</strong> ad on a non-prayer transition, and an <strong>optional, opt-in rewarded video</strong>. <strong>No ad is ever shown during or over the azan.</strong></td>
+        <td><strong>IP address + coarse device info</strong></td>
+        <td><strong>Only in the free, ad-supported version.</strong> Google AdMob uses these to serve and measure <strong>non-personalised</strong> ads &mdash; a <strong>banner</strong>, an <strong>occasional full-screen (interstitial)</strong> ad on a non-prayer transition, and an <strong>optional, opt-in rewarded video</strong>. <strong>The App removes the Google Advertising ID (AAID) permission, so AdMob does NOT receive your advertising identifier.</strong> <strong>No ad is ever shown during or over the azan.</strong></td>
         <td><strong>Shared with Google</strong> as our advertising partner, per Google&rsquo;s policies</td>
-        <td>Governed by Google&rsquo;s retention; you can reset or <strong>delete</strong> the AAID in Android Settings (Android 12+ &ldquo;Delete advertising ID&rdquo;)</td>
+        <td>Governed by Google&rsquo;s retention</td>
       </tr>
       <tr>
         <td><strong>Your settings</strong> (city, calculation method, madhab, offsets, language, reminder toggles)</td>
@@ -114,18 +114,20 @@
 
   <p><strong>We do not sell your personal data, and we do not operate any analytics or tracking
   backend.</strong> However, because the free version shows Google ads, the AdMob SDK does collect
-  and share an advertising identifier, IP address and limited device information with Google
-  to serve those ads. We disclose this honestly here and in the Google Play <strong>Data Safety</strong>
+  and share your IP address and limited device information with Google
+  to serve those ads. <strong>The App removes the Advertising ID permission, so AdMob does NOT
+  collect or share the Google Advertising ID (AAID).</strong> We disclose this honestly here and in the Google Play <strong>Data Safety</strong>
   section, and this Policy and that form are kept consistent.</p>
 
   <p>Because the App&rsquo;s purpose reveals that you are a Muslim, we treat this as sensitive and
   <strong>minimise accordingly</strong>: ads are <strong>non-personalised</strong> (no behavioural/interest profiling),
+  <strong>no Advertising ID is shared</strong> (permission removed),
   we share <strong>no</strong> in-app activity, and your calculation method/madhab are kept
   <strong>on-device only</strong> and never sent to Google.</p>
 
   <div class="note">
     If and when an <strong>ad-free option</strong> is offered, that version will not load the AdMob SDK and
-    therefore will not collect or share the advertising identifier. The free build offers a
+    therefore will not collect or share any ad data at all. The free build offers a
     <strong>temporary 24-hour ad-free reward</strong> &mdash; you may watch an optional rewarded video to hide
     banner and interstitial ads for 24 hours; this suppresses ad display only, the SDK remains present.
   </div>
@@ -167,11 +169,11 @@
     <li><strong>Correct</strong> your settings (editable in-app at any time).</li>
     <li><strong>Erase</strong> your data &mdash; because data lives on your device, you can erase it instantly via
       <em>Android Settings &rarr; Apps &rarr; Namaz Time &rarr; Clear data</em> or by uninstalling.
-      Resetting your Advertising ID in Android Settings clears the ad identifier shared with Google.</li>
+      The App does not share your Advertising ID with Google (the AD_ID permission is removed).</li>
     <li><strong>Grieve</strong> &mdash; contact us at the privacy/grievance address above; we respond within 30 days.</li>
     <li><strong>Withdraw consent</strong> &mdash; revoke location/notification permissions in Android Settings at any
-      time, and stop the advertising-ID processing by tapping
-      <em>Android Settings &rarr; Privacy &rarr; Ads &rarr; <strong>Delete advertising ID</strong></em> (Android 12+).
+      time. Ads are non-personalised by default and the App does <strong>not</strong> read or share your
+      Advertising ID (the AD_ID permission is removed).
       You can also <strong>re-open the ad-consent (UMP) options at any time in-app via
       <em>More &rarr; &ldquo;Ad privacy options&rdquo;</em></strong>.</li>
   </ul>
@@ -190,7 +192,7 @@
   data breach affecting data we control, we will notify the <strong>Data Protection Board of India</strong> and
   each <strong>affected Data Principal</strong> in the form and manner prescribed under the Act, without undue
   delay. Because the App holds no central user database and prayer/location data lives only on your
-  device, the realistic breach surface is limited to the advertising identifier processed by Google
+  device, the realistic breach surface is limited to the IP address and coarse device info processed by Google
   (governed by Google&rsquo;s own breach obligations).</p>
 
   <hr>
@@ -227,13 +229,12 @@
 
   <div class="footer">
     <p>
-      <a href="https://micromanplay.github.io/">Microman Play</a> &middot;
-      <a href="https://micromanplay.github.io/namaztime/">Namaz Time</a>
+      <a href="../index.html">Legal hub</a> &middot;
+      <a href="https://micromanplay.github.io/namaztime/privacy/">Hosted version</a>
     </p>
-    <p>&copy; 2026 Microman Play &middot; <code>com.namaztime.app</code></p>
+    <p>&copy; 2026 Microman Play. Namaz Time app &mdash; <code>com.namaztime.app</code></p>
   </div>
 
 </main>
 </body>
 </html>
-
